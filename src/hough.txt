@@ -1,0 +1,4 @@
+Image Recognition Course 2004
+Hough Transformation
+
+Alexander Marinov

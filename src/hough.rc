@@ -1,0 +1,196 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Bulgarian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,65,74,50,14
+    LTEXT           "Image Recognition Course 2004",IDC_STATIC,7,7,106,8
+    LTEXT           "Hough Transformation",IDC_STATIC,7,19,106,8
+    LTEXT           "Alexander Marinov",IDC_STATIC,7,32,106,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Hough",                      ID_FILE_HOUGH
+        MENUITEM "E&xit",                       105
+    END
+    POPUP "&Image"
+    BEGIN
+        MENUITEM "&Dot",                        ID_IMAGE_DOT
+        MENUITEM "&HLine",                      ID_IMAGE_HLINE
+        MENUITEM "&VLine",                      ID_IMAGE_VLINE
+        MENUITEM "&Box",                        ID_IMAGE_BOX
+        MENUITEM "&Circle",                     ID_IMAGE_CIRCLE
+        MENUITEM "&Free Pen",                   ID_IMAGE_FREEPEN
+    END
+    POPUP "&Brightness"
+    BEGIN
+        MENUITEM "x1",                          ID_BRIGHTNESS_X6
+        MENUITEM "x2",                          ID_BRIGHTNESS_X3
+        MENUITEM "x4",                          ID_BRIGHTNESS_X5
+        MENUITEM "x8",                          ID_BRIGHTNESS_X9
+        MENUITEM "x64",                         ID_BRIGHTNESS_X16
+    END
+    POPUP "&Size"
+    BEGIN
+        MENUITEM "&Small",                      ID_SIZE_SMALL
+        MENUITEM "&Medium",                     ID_SIZE_MEDIUM
+        MENUITEM "&Large",                      ID_SIZE_LARGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About...",                   104
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR ACCELERATORS 
+BEGIN
+    "r",            ID_SHOW_RECT,           ASCII,  NOINVERT
+    VK_ESCAPE,      IDM_EXIT,               VIRTKEY, NOINVERT
+    "S",            ID_SIZE_SMALL,          VIRTKEY, NOINVERT
+    "M",            ID_SIZE_MEDIUM,         VIRTKEY, NOINVERT
+    "L",            ID_SIZE_LARGE,          VIRTKEY, NOINVERT
+    "1",            ID_BRIGHTNESS_X6,       VIRTKEY, NOINVERT
+    "2",            ID_BRIGHTNESS_X3,       VIRTKEY, NOINVERT
+    "3",            ID_BRIGHTNESS_X5,       VIRTKEY, NOINVERT
+    "4",            ID_BRIGHTNESS_X9,       VIRTKEY, NOINVERT
+    "5",            ID_BRIGHTNESS_X16,      VIRTKEY, NOINVERT
+    "H",            ID_FILE_HOUGH,          VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "hough.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Image Recognition - Hough Transformation"
+    IDC_CLASS_NAME          "HOUGH"
+END
+
+#endif    // Bulgarian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
